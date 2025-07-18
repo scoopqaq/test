@@ -6,10 +6,10 @@ from pkg.plugin.events import PersonNormalMessageReceived
 
 # --- 1. 配置信息 ---
 # 把这些信息填上你自己的
-OPEN_KFID = "wkWXzbIQAAm6b8YG1bHAuGxAXyJtCG6A"  # 你的企业微信客服账号ID
+OPEN_KFID = "wk1IEjWwAAzJpTMscnWXxttzvt8HQ1jw"  # 你的企业微信客服账号ID
 SERVICER_USERID = "LiHaiLong"  # 指定接待的客服人员ID，也可以是一个列表轮流分配
-WECOM_CORP_ID = "ww3e43e43b6854c776" # 你的企业ID
-WECOM_SECRET = "sI-a1zAI7hB1rZVy-IJnubba01eXL9fmVFKY3SwbY4s" # 你的客服应用Secret
+WECOM_CORP_ID = "ww9539a0a178d52277" # 你的企业ID
+WECOM_SECRET = "ExcFX0jYD4J8flVmQ9cE9xsIec66P5qT79nnWez2Dx8" # 你的客服应用Secret
 
 # --- 2. Access Token 管理 ---
 # 企业微信的 access_token 有效期为2小时，需要全局缓存
