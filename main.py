@@ -104,7 +104,7 @@ class TransferToAgentPlugin(BasePlugin):
             payload = {
                 "open_kfid": OPEN_KFID,
                 "external_userid": formatted_user_id,
-                "service_state": 3,
+                "service_state": 2,
                 "servicer_userid": SERVICER_USERID
             }
 
